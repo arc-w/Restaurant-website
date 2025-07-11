@@ -1,0 +1,500 @@
+@media (max-width: 1121px) {
+    .lunch_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lunch_h {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #lunch1 {
+        float: none;
+        padding-bottom: 30px;
+        width: 90%;
+    }
+    #main_button {
+        width: 230%;
+        font-size: 50%;
+        height: 10vw;
+    }
+    .button {
+        width: 100%;
+        font-size: 150%;
+        height: 5vw;
+    }
+    #logo_flex {
+        clear: both;
+    }
+}
+@media (max-width: 875px) {
+    .card-group>.card {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .button_stek {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 1122px) {
+    .lunch_img {
+        margin: 0 10% 10% 10%;
+    }
+    #lunch1 {
+        float: left;
+    }
+    #main_button {
+        font-size: 50%;
+        width: 80%;
+    }
+    .button {
+        width: 50%;
+        height: 5vw;
+        font-size: 180%;
+    }
+    #button_lunch {
+        width: 45%;
+    }
+}
+@font-face {
+    font-family: 'Playfair Display ExtraBoldItalic';
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf");
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Playfair Display Bold';
+    src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+.bg_custom_img {
+    background-image: url(../resources/background1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-bottom: 18%;
+}
+.bg {
+    background-color: #FFFFFF;
+    padding-bottom: 30%;
+}
+.bg_img {
+    margin-top: 10%;
+    background-image: url(../resources/background2.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-bottom: 6%;
+    clear: both;
+}
+.bg-foot {
+    background-image: url(../resources/background2.png);
+    background-attachment: fixed;
+    padding-bottom: 3%;
+    background-size: 100%;
+    clear: both;
+    padding-top: 1%;
+    text-align: center;
+}
+.bg_img input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.color-panel {
+    color: #FFFFFF;
+    font-family: 'Montserrat Medium';
+    font-size: 150%;
+}
+#arrow {
+    float: left;
+    margin-left: 3%;
+}
+.heading {
+    font-family: 'Playfair Display ExtraBoldItalic';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 12%;
+    margin-left: 3%;
+    width: 40vw;
+}
+.button {
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+    font-weight: 600px;
+    color: rgba(80, 49, 2, 0.83);
+    line-height: 26px;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 2%;
+    background: #FEEE5E;
+    border-radius: 38px;
+    border: none;
+}
+#main_button {
+    color: #000000;
+}
+.stek_h {
+    font-family: 'Montserrat Bold';
+    font-size: 55px;
+    color: rgba(80, 49, 2, 0.83);
+    text-align: center;
+}
+.stek {
+    margin-top: 20px;
+}
+.card {
+    width: 30%;
+    margin: 5% 5%;
+    padding: 1%;
+    background-color: #F2F2F2;
+}
+.card-title {
+    margin-top: -2%;
+    font-family: 'Playfair Display Bold';
+    font-size: 250%;
+    text-align: center;
+    color: #704B13;
+}
+.card-text {
+    font-family: 'Montserrat Medium';
+    font-size: 150%;
+    color: #704B13;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.button_stek {
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 180%;
+    color: white;
+    line-height: 26px;
+    text-align: center;
+    width: 22vw;
+    height: 6vw;
+    margin-left: 0%;
+    margin-top: 2%;
+    background: rgba(80, 49, 2, 0.83);
+    border-radius: 38px;
+    border: none;
+    margin: auto;
+    margin-bottom: 8%;
+}
+.lunch {
+    padding-top: 10%;
+    background-color: #FFFFFF;
+}
+.lunch_h {
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Playfair Display Bold';
+    font-size: 200%;
+    color: #704B13;
+}
+.lunch_text {
+    color: #704B13;
+    font-family: 'Montserrat Medium';
+    font-size: 150%;
+}
+.lunch input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.call {
+    font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    color: #F2F2F2;
+    margin-top: 3%;
+}
+.menu {
+    margin-top: 10%;
+    background-color: #F2F2F2;
+}
+.menu_left {
+    float: left;
+    margin-left: 2%;
+    width: 40%;
+    background-color: #FFFFFF;
+}
+.menu_left img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menu_left input{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menu_right {
+    float: right;
+    margin-right: 5%;
+    width: 50%;
+}
+.menu_left_text {
+    font-family: 'Montserrat Regular';
+    font-size: 20px;
+    text-align: center;
+    color: #704B13;
+    width: 67%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mb-1-h {
+    font-family: 'Montserrat Medium';
+    font-size: 20px;
+    color: #704B13;
+}
+.price {
+    font-family: 'Montserrat Bold';
+    font-size: 22px;
+    color: #704B13;
+    float: right;
+    margin-right: 2%;
+    width: 15%;
+    text-align: right;
+}
+.mb-1 {
+    font-family: 'Montserrat Regular';
+    font-size: 18px;
+    color: #704B13;
+    margin-top: 2%;
+}
+.line {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-top: 2px dashed #704B13;
+    color: #F2F2F2;
+}
+.logo-white {
+    margin-top: 8%;
+}
+.info-address {
+    font-family: 'Montserrat SemiBold';
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3%;
+}
+.info-days-foot {
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2%;
+}
+.info-days {
+    font-family: 'Montserrat Medium';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7%;
+    color: #FFFFFF;
+    clear: both;
+}
+.info_order {
+    font-family: 'Montserrat Bold';
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5%;
+    width: 60%;
+    margin: auto;
+}
+.logo-left {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+}
+.logo-right {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.logo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+.call {
+    text-align: center;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row > .column {
+    padding: 0 8px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 10%;
+}  
+.gallery_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: url(../resources/background2.png);
+    background-attachment: fixed;
+    background-size: 100%;
+} 
+.gallery_modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+.gallery_food img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gallery_food {
+    display: none;
+    background-image: url(../resources/background2.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+img.demo {
+    opacity: 0.6;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+img.hover-shadow {
+    transition: 0.3s;
+}
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#gallery_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 3%;
+    margin-top: -7%;
+    clear: both;
+}
+#open_gallery {
+    float: right;
+    padding-right: 6%;
+    width: 50%;
+    padding-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.gallery_open p {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Playfair Display Bold';
+    font-size: 64px;
+    color: #704B13;
+    clear: both;
+}
+.Imie {
+    font-family: 'Montserrat SemiBold';
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
